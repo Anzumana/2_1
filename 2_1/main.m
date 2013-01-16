@@ -13,7 +13,12 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
 
-		NSLog(@"In Objective-C, lowercase letters are significant.\nmain is where program execution begins.\nOpen and closed braces enclose program statements\n");
+	int i;
+	i = 1;
+	NSLog(@"Testing...");
+	NSLog(@"...%i",i);
+	NSLog(@"...%i",i + 1);
+	NSLog(@"...%i",i + 2);
 
     }
     return 0;

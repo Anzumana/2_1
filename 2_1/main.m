@@ -13,12 +13,8 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
 
-        int sum, value1,value2;
-		value1 = 25;
-        value2 = 50;
-		sum = value1 + value2;
+		NSLog(@"In Objective-C, lowercase letters are significant.\nmain is where program execution begins.\nOpen and closed braces enclose program statements\n");
 
-		NSLog(@"The sum of %i and %i ist : %i",value1,value2,sum);
     }
     return 0;
 }

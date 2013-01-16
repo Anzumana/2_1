@@ -13,12 +13,10 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
 
-	int i;
-	i = 1;
-	NSLog(@"Testing...");
-	NSLog(@"...%i",i);
-	NSLog(@"...%i",i + 1);
-	NSLog(@"...%i",i + 2);
+	int i,j;
+	i = 87;
+	j = 15;
+	NSLog(@"...%i minus %i is : %i ",i,j,i - j);
 
     }
     return 0;

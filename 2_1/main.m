@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Anzumana Taal. All rights reserved.
 //
 // Program to work with fractions - class version
-
+//
 #import <Foundation/Foundation.h>
 
 //---- @interface section ----
